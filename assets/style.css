@@ -1,0 +1,58 @@
+:root {
+    font-size: 32x;
+    font-family: 'apercu';
+    --text-primary: #b6b6b6;
+    --text-secondar: #ececec;
+    --bg-primary: #36454F;
+    --bg-secondary: #141418;
+}
+
+body {
+    color: #b6b6b6;
+    background-color: #36454F;
+    margin: 0;
+    padding: 0;
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+    
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+    
+}
+
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+
+
+}
+
+.navbar {
+    --headerNavFontSize: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    width: var(--space2XL);
+    position: fixed;
+    top: var(--spaceOuter);
+    left: var(--spaceOuter);
+    bottom: var(--spaceOuter);
+    z-index: var(--zIndex4);
+    isolation: isolate;
+
+    
+}
+

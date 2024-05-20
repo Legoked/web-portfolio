@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'gotham';
+    src: url(fonts/gotham-medium.woff2);
+}
+
+
+@font-face {
+    font-family: 'apercu';
+    src: url(fonts/Apercu_Regular.otf);
+}
+
+
+/* for legacy browser compatability */
+@font-face {
+	font-family: 'comGotham';
+	src: url(fonts/Gotham-Bold.otf); /* IE9 Compat Modes */
+	src: url(fonts/Gotham-Bold.otf) format('embedded-opentype'), /* IE6-IE8 */
+	     url(fonts/Gotham-Bold.otf) format('woff'), /* Modern Browsers */
+	     url(fonts/Gotham-Bold.otf)  format('truetype'), /* Safari, Android, iOS */
+	}
+
+/* lowkey might break LOL */
+@font-face {
+	font-family: 'comApercu';
+	src: url(fonts/Apercu\ Bold.otf); /* IE9 Compat Modes */
+	src: url(fonts/Apercu\ Bold.otf) format('embedded-opentype'), /* IE6-IE8 */
+	     url(fonts/Apercu\ Bold.otf) format('woff'), /* Modern Browsers */
+	     url(fonts/Apercu\ Bold.otf)  format('truetype'), /* Safari, Android, iOS */
+	}
