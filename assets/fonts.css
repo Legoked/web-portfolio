@@ -1,13 +1,13 @@
 @font-face {
+    font-family: 'apercu';
+    src: url(fonts/Apercu_Regular.otf);
+}
+
+@font-face {
     font-family: 'gotham';
     src: url(fonts/gotham-medium.woff2);
 }
 
-
-@font-face {
-    font-family: 'apercu';
-    src: url(fonts/Apercu_Regular.otf);
-}
 
 
 /* for legacy browser compatability */
@@ -27,3 +27,4 @@
 	     url(fonts/Apercu\ Bold.otf) format('woff'), /* Modern Browsers */
 	     url(fonts/Apercu\ Bold.otf)  format('truetype'), /* Safari, Android, iOS */
 	}
+
