@@ -74,7 +74,7 @@
       text-decoration: none;
 
       background-image: linear-gradient(
-        90deg,
+        to right,
         #fddb92,
         #fddb92 50%,
         var(--text-primary) 50%
@@ -85,24 +85,26 @@
       -webkit-text-fill-color: transparent;
       transition: all 0.3s ease-in-out;
       
-      &:before {
-        content: '';
-        background: #fddb92;
-        display: block;
-        position: absolute;
-        bottom: -3px;
-        left: 0;
-        width: 0;
-        height: 3px;
+
+      &::before {
+      content: '';
+      background: #fddb92;
+      display: block;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      width: 0;
+      height: 3px;
       }
 
       &:hover {
-        background-position: 0;
+        background-position: 0;;
       }
 
       &:hover::before {
         width: 100%;
       }
+
     }
 
     

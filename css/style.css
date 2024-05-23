@@ -1,7 +1,7 @@
 :root {
     font-size: 16px;
-    --text-primary: rgba(70, 70, 87, 0.993);
-    --text-secondary: D3D3D3;
+    --text-primary: #434343;
+    --text-secondary: #D3D3D3;
    
     --fontWeightRegular: 400;
     --fontWeightMedium: 500;

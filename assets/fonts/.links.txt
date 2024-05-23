@@ -1,2 +1,4 @@
 https://downgit.evecalm.com/#/home?url=https://github.com/HamishMW/portfolio/tree/master/app/assets/fonts
 https://font.download/font/apercu
+https://css-tricks.com/css-link-hover-effects/
+https://webgradients.com/
