@@ -45,19 +45,6 @@
 
     }
   
-    .nav {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      flex: 1 1 auto;
-      max-width: var(--space2XL);
-  
-      @media (--mediaMobile), (--mediaMobileLS) {
-        display: none;
-      }
-    }
-  
     .navList {
       transform: rotate(180deg);
       display: flex;
@@ -74,36 +61,36 @@
       text-decoration: none;
 
       background-image: linear-gradient(
-        to right,
+        to top,
         #fddb92,
         #fddb92 50%,
         var(--text-primary) 50%
       );
-      background-size: 200% 100%;
-      background-position: 100%;
+      background-size: 1rem 200px;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       transition: all 0.3s ease-in-out;
       
-
-      &::before {
-      content: '';
-      background: #fddb92;
-      display: block;
-      position: absolute;
-      bottom: 0px;
-      left: 0;
-      width: 0;
-      height: 3px;
+      &:hover {
+        background-position: 1rem 100px;
       }
+
+
+
+/* 
+      cursor: pointer;
+      box-shadow: inset 0 0 0 0 #fddb92, #fddb92, var(--text-primary) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: #fddb92;
+      -webkit-transition: ease-out 0.4s;
+      -moz-transition: ease-out 0.4s;
+      transition: ease-out 0.4s;
 
       &:hover {
-        background-position: 0;;
-      }
+        box-shadow: inset 100px 0 0 0 #fddb92;
+        -webkit-text-fill-color: black;
 
-      &:hover::before {
-        width: 100%;
-      }
+      } */
 
     }
 
