@@ -74,29 +74,11 @@
       &:hover {
         background-position: 1rem 100px;
       }
-
-
-
-/* 
-      cursor: pointer;
-      box-shadow: inset 0 0 0 0 #fddb92, #fddb92, var(--text-primary) ;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: #fddb92;
-      -webkit-transition: ease-out 0.4s;
-      -moz-transition: ease-out 0.4s;
-      transition: ease-out 0.4s;
-
-      &:hover {
-        box-shadow: inset 100px 0 0 0 #fddb92;
-        -webkit-text-fill-color: black;
-
-      } */
-
     }
 
     
   
-    .navIconLink {
+    /* .navIconLink {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -105,13 +87,13 @@
       height: var(--space2XL);
       color: var(--textLight);
       transition: color var(--durationM) var(--bezierFastoutSlowin);
-    }
-  
+    } */
+/*   
     .navIcon {
       fill: currentColor;
       transition: fill var(--durationM) ease;
     }
-  
+   */
     .mobileNav {
       --backdrop: blur(24px) saturate(120%);
   

@@ -42,7 +42,6 @@
 }
 
 body {
-    /* https://webgradients.com/ */
     color: var(--text-primary);
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#363636", endColorstr="#515151", GradientType=1 );
