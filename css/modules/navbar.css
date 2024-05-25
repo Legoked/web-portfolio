@@ -62,8 +62,8 @@
 
       background-image: linear-gradient(
         to top,
-        #fddb92,
-        #fddb92 50%,
+        var(--accent),
+        var(--accent) 50%,
         var(--text-primary) 50%
       );
       background-size: 1rem 200px;

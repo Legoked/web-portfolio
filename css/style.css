@@ -2,7 +2,15 @@
     font-size: 16px;
     --text-primary: #434343;
     --text-secondary: #D3D3D3;
+    --accent: #fddb92;
    
+    --bezierFastoutSlowin: cubic-bezier(0.4, 0.0, 0.2, 1);
+    --durationXS: 200ms;
+    --durationS: 300ms;
+    --durationM: 400ms;
+    --durationL: 600ms;
+    --durationXL: 800ms;
+
     --fontWeightRegular: 400;
     --fontWeightMedium: 500;
     --fontWeightBold: 700;
