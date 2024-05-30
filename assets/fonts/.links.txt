@@ -2,3 +2,22 @@ https://downgit.evecalm.com/#/home?url=https://github.com/HamishMW/portfolio/tre
 https://font.download/font/apercu
 https://css-tricks.com/css-link-hover-effects/
 https://webgradients.com/
+
+
+    <!-- <svg width="20vw" x="0px" y="0px"
+         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+    <style type="text/css">
+        .st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+    </style>
+    <g id="relativity">
+        <polygon class="st0" points="256,256 350.9,161.1 498.7,197.5 	"/>
+        <polygon class="st0" points="256,256 350.9,161.1 314.5,13.3 	"/>
+    </g>
+    <g id="adventure">
+        <g>
+            <path class="st0" d="M209.8,302.2"/>
+            <polygon class="st0" points="209.8,302.2 498.7,302.2 498.7,498.7 13.3,498.7 		"/>
+            <polygon class="st0" points="209.8,302.2 209.8,13.3 13.3,13.3 13.3,498.7 		"/>
+        </g>
+    </g>
+    </svg> -->

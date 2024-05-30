@@ -1,1 +1,0 @@
-export { monogram } from './monogram';
