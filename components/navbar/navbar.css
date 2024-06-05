@@ -59,7 +59,6 @@
       -webkit-text-fill-color: transparent;
       transition: all 0.3s ease-in-out;
       
-      /* moves view of background to the accent section of the gradient */
       &:hover {
         background-position: 1rem 100px;
       }
@@ -84,10 +83,10 @@
       height: var(--spaceM);
       color: var(--text-primary);
 
-      transition: color var(--durationM) var(--bezierFastoutSlowin);
+      transition: fill var(--durationS) ease;
     
       &:hover{
-        color: var(--accent);
+        fill: var(--accent);
       }
     }
 
