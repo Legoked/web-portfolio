@@ -1,5 +1,5 @@
 @layer layout {
-    .navbar {
+    header {
       --headerNavFontSize: calc((16 /16) * 1.125rem);
   
       display: flex;
@@ -24,15 +24,7 @@
       }
     }
 
-    .logo {
-      display: flex;
-      color: var(--textTitle);
-      position: relative;
-      padding: var(--spaceS) var(--spaceS) var(--spaceL);
-      z-index: var(--zIndex2);
-  }
-
-    .nav {
+    nav {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -40,7 +32,6 @@
       flex: 1 1 auto;
       max-width: var(--space2XL);
     }
-
 
     .navList {
       transform: rotate(180deg);

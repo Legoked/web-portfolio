@@ -16,13 +16,19 @@
 </head>
 
 <body>
-    <header class="navbar">
-        <a class="logo" href="">
-            <svg height="40" width="40" viewBox="0 0 64 64">
-                <use href="assets/icons/favicon.svg#motif"></use>
-            </svg>
-        </a>
-        <nav class="nav">
+    <header>
+        <div class="logo" href="">
+            <a href="#">
+                <svg class="motif" width="40" height="40" viewBox="0 0 64 64">
+                    <clipPath id="motif-clip">
+                        <rect class="highlight" width="96" height="92" />
+                    </clipPath>                  
+                    <use href="assets/icons/favicon.svg#motif"></use>
+                    <use clip-path="url(#motif-clip)" href="/assets/icons/favicon.svg#motif" fill="var(--accent)" /></use>
+                </svg>
+            </a>
+        </div>
+        <nav>
             <div class="navList">
                 <a class="navLink" href="#project-1">Projects</a>
                 <a class="navLink" href="#details">Details</a>
@@ -36,7 +42,7 @@
                     </svg>
                 </a>
                 <a class="navIconLink" href="https://github.com/legoked" target="_blank">
-                    <svg class= width="24" height="24">
+                    <svg width="24" height="24">
                         <use href="assets\icons\map.svg#github"></use>
                     </svg>
                 </a>

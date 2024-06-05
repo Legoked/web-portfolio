@@ -2,6 +2,7 @@ https://downgit.evecalm.com/#/home?url=https://github.com/HamishMW/portfolio/tre
 https://font.download/font/apercu
 https://css-tricks.com/css-link-hover-effects/
 https://webgradients.com/
+https://blog.logrocket.com/how-to-animate-svg-css-tutorial-examples/#svg-icons
 
 
     <!-- <svg width="20vw" x="0px" y="0px"

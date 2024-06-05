@@ -1,31 +1,38 @@
 @layer components {
+  @keyframes slide {
+    from {
+      /* x: 64px; */
+      y: -128px;
+    }
+    to {
+      y: 128px;
+      /* x: 0px; */
+    }
+  }
+
   .motif {
-    fill: var(--textTitle);
-    transition: fill var(--durationL) ease;
+    fill: var(--text-primary);
+    transition: color var(--durationM) var(--bezierFastoutSlowin);
+    
+  }
+
+  .logo {
+    display: flex;
+    color: var(--textTitle);
+    position: relative;
+    padding: var(--spaceS) var(--spaceS) var(--spaceL);
+
+    z-index: var(--zIndex2);
+    
   }
 
   .highlight {
-    fill: var(--accent);
-    opacity: 0;
-    transform: scale3d(1, 0, 1);
-    transform-origin: top;
-    transition: opacity 0.1s ease var(--durationM);
-
-    @media (--mediaUseMotion) {
-      transition: transform var(--durationM) var(--bezierFastoutSlowin),
-        opacity 0.1s ease var(--durationM);
-    }
-
-    :is(a:hover, .motif:hover) & {
-      opacity: 1;
-      transform: scale3d(1, 1, 1);
-      transform-origin: bottom;
-      transition: opacity 0.1s ease;
-
-      @media (--mediaUseMotion) {
-        transition: transform var(--durationM) var(--bezierFastoutSlowin),
-          opacity 0.1s ease;
-      }
-    }
+    transform: rotate(45deg);
   }
+
+  #motif-clip rect {
+
+      animation: slide 3s infinite;
+  
+    }
 }
