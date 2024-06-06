@@ -22,3 +22,5 @@ https://blog.logrocket.com/how-to-animate-svg-css-tutorial-examples/#svg-icons
         </g>
     </g>
     </svg> -->
+
+    https://iconmonstr.com/linkedin-1-svg/

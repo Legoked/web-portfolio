@@ -81,7 +81,7 @@
       padding: var(--spaceM);
       width: var(--spaces2XL);
       height: var(--spaceM);
-      color: var(--text-primary);
+      fill: var(--text-primary);
 
       transition: fill var(--durationS) ease;
     
