@@ -7,16 +7,14 @@
 
   .highlight {
   fill: var(--accent);
-  opacity: 1;
   transform-origin: top right;
   transform: scale3d(0, 0, 0);
-  transition: all 0.4s ease;
+  transition: transform 0.2s ease;
+
   }
 
   .motif:hover .highlight {
-    opacity: 1;
     transform: scale3d(1, 1, 1);
-    /* transition: all 0.zs ease; */
   }
 
   .logo {

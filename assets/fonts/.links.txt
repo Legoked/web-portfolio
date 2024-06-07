@@ -24,3 +24,4 @@ https://blog.logrocket.com/how-to-animate-svg-css-tutorial-examples/#svg-icons
     </svg> -->
 
     https://iconmonstr.com/linkedin-1-svg/
+    https://www.quora.com/Should-you-design-or-code-first-when-building-a-website-web-application-Why-or-why-not
