@@ -2,7 +2,12 @@
 
   .motif{
     fill: var(--text-primary);
-    transition: all var(--durationL) ease;  
+    transition: all var(--durationM) ease;  
+
+    &:hover {
+      transform: rotate(-225deg);
+    }
+    
   }
 
   .highlight {

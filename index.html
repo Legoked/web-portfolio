@@ -8,15 +8,19 @@
     <link rel="icon" href="assets/icons/map.svg" type="image/svg+xml"/>
     <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml"/>
-    <link rel="stylesheet" href="public/fonts.css" />
     <link rel="stylesheet" href="public/macros.css" />
-    <link rel="stylesheet" href="components/navbar/navbar.css" />
     <link rel="stylesheet" href="components/motif/motif.css" />
+    <link rel="stylesheet" href="components/navbar/navbar.css" />
+    <link rel="stylesheet" href="components/footer/footer.css" />
+    <link rel="stylesheet" href="components/section/section.css" />
+    <link rel="stylesheet" href="layout/main-container.css" />
+    <link rel="stylesheet" href="routes/home.css" />
+    <link rel="stylesheet" href="routes/intro.css" />
     
 </head>
 
 <body>
-    <header>
+    <header class="navbar">
         <div class="logo" href="">
             <a href="#">
                 <svg class="motif" width="48" height="48" viewBox="0 0 64 64">
@@ -33,11 +37,11 @@
             
             </a>
         </div>
-        <nav>
+        <nav class="nav">
             <div class="navList">
                 <a class="navLink" href="#project-1">PROJECTS</a>
                 <a class="navLink" href="#details">DETAILS</a>
-                <a class="navLink" href="https://drive.google.com/file/d/1b-I_OtgWJiBsUXy1IHZqH-t1GVXOBPYg/view" target="_blank">RESUME</a>
+                <a class="navLink" href="https://drive.google.com/file/d/1dVlk_hkbK85NCXMEMbjiXRiKX1x1xg4L/view" target="_blank">RESUME</a>
                 <a class="navLink" href="#media">MEDIA</a>
             </div>
             <div class="navSocs">
@@ -52,13 +56,24 @@
                     </svg>
                 </a>
                 <a class="navIconLink" href="https://github.com/deyviaa" target="_blank">
-                    <svg width="24" height="24">
+                    <svg width="28" height="28">
                         <use href="assets\icons\map.svg#github"></use>
                     </svg>
                 </a>
             </div>
         </nav>
     </header>
+    <main class="container">
+        <div class="home">
+            <section class="section intro" >intro</section>
+
+            <footer class="footer">
+                <span>© 2024 Deyvi Andrade- Aviles</span>
+            </footer>
+        </div>
+    </main>
+    
+    
 </body>
 </html>
 

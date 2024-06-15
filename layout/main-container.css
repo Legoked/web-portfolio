@@ -1,0 +1,9 @@
+@layer layout {
+    .container {
+        display: flex;
+        width: 100%;
+        position: relative;
+        transition: opacity 0.4s var(--bezierFastoutSlowin);
+     }
+
+}

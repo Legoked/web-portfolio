@@ -1,5 +1,5 @@
 @layer layout {
-    header {
+    .navbar {
       --headerNavFontSize: calc((16 /16) * 1.125rem);
   
       display: flex;
@@ -24,7 +24,7 @@
       }
     }
 
-    nav {
+    .nav {
       display: flex;
       flex-direction: column;
       justify-content: space-between;

@@ -1,0 +1,10 @@
+@layer components {
+    .section {
+        padding-right: var(--space5XL);
+        padding-left: calc(var(--space4XL)* 2);
+
+        &:focus{
+            outline: none;
+        }
+    }
+}
