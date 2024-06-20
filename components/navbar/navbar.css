@@ -1,6 +1,6 @@
 @layer layout {
     .navbar {
-      --headerNavFontSize: calc((16 /16) * 1.125rem);
+      --headerNavFontSize: calc((16 /16) * 1rem);
   
       display: flex;
       flex-direction: column;
@@ -52,7 +52,7 @@
         to top,
         var(--accent),
         var(--accent) 50%,
-        var(--text-primary) 50%
+        var(--text) 50%
       );
       background-size: 1rem 200px;
       -webkit-background-clip: text;
@@ -81,11 +81,12 @@
       padding: var(--spaceM);
       width: var(--spaces2XL);
       height: var(--spaceM);
-      fill: var(--text-primary);
+      fill: var(--textLight);
 
-      transition: fill var(--durationS) ease;
+      transition: fill var(--durationM) var(--bezierFastoutSlowin);
     
-      &:hover{
+      &:hover,
+      &:active {
         fill: var(--accent);
       }
     }

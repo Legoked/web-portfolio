@@ -1,7 +1,7 @@
 @layer components {
 
   .motif{
-    fill: var(--text-primary);
+    fill: var(--textTitle);
     transition: all var(--durationM) ease;  
 
     &:hover {
