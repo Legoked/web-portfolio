@@ -1,0 +1,107 @@
+@layer layout {
+    .navbar {
+      --headerNavFontSize: calc((16 /16) * 1rem);
+      font-family: Apercu;
+      text-transform: uppercase;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0;
+      width: var(--spaceXL);
+      position: fixed;
+      top: var(--spaceOuter);
+      left: var(--spaceOuter);
+      bottom: var(--spaceOuter);
+      z-index: var(--zIndex4);
+      isolation: isolate;
+  
+      @media (--mediaMobile) {
+        --headerNavFontSize: calc((22 / 16) * 1rem);
+      }
+  
+      @media (--mediaMobile), (--mediaMobileLS) {
+        bottom: auto;
+      }
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: right;
+      flex: 1 1 auto;
+      max-width: var(--space2XL);
+
+    }
+
+    .navList {
+      transform: rotate(270deg);
+      display: flex;
+      flex-direction: row-reverse;
+      position: relative;
+      /* writing-mode: vertical-rl; */
+    }
+    
+    .navLink {
+      padding: var(--spaceM);
+      color: color-mix(in lab, var(--text) 80%, transparent);
+      font-weight: var(--fontWeightMedium);
+      font-size: var(--headerNavFontSize);
+      text-decoration: none;
+    }
+
+    .navText {
+        display: inline-block;
+        position: relative;
+      }
+      
+    .navText::after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: var(--accent);
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    
+    .navText:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    /*############################################ ICON/SOCIALS STUFF BELOW ############################################*/
+
+    .navSocs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: var(--zIndex2);
+  
+      }
+  
+      .navIconLink {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: var(--spaceM);
+        width: var(--spaces2XL);
+        height: var(--spaceM);
+        fill: var(--textLight);
+  
+        transition: fill var(--durationM) var(--bezierFastoutSlowin);
+      
+        &:hover,
+        &:active {
+          fill: var(--accent);
+        }
+      }
+
+}
